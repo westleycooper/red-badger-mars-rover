@@ -5,13 +5,13 @@ import { instructionParser } from "../robot.instruction.parser";
 import { RobotState, Route } from "../robot.types";
 import { Status } from "../robot.constants";
 
-describe("NAV EVENT", () => {
+describe("ROBOT NAV EVENT", () => {
   const parsed = instructionParser(robotInstructions);
   const grid = parsed.grid;
 
-  console.log(`GRID X: ${grid.width}, Y: ${grid.height}`);
+  console.log(`GRID WIDTH: ${grid.width}, HEIGHT: ${grid.height}`);
   console.log(
-    "@TODO: Note tests are not checking against offGridPositions yet so I am afraid we lose robot 3 to a martian anolomy",
+    "@TODO: Note tests are not checking against offGridPositions yet so I am afraid we lose robot 3 to a martian anomoly",
   );
 
   parsed.routes.map((route: Route, index: number) => {
