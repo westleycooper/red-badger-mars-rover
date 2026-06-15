@@ -1,4 +1,4 @@
-import { Direction, Instruction } from "./robot.types";
+import { Direction, Instruction, StatusType } from "./robot.types";
 
 export const MaxGridValue = 50;
 export const MaxInstructionLength = 99;
@@ -17,6 +17,6 @@ export const Instructions = {
 };
 
 export const Status = {
-  OK: "OK",
-  LOST: "LOST",
+  OK: "OK" as StatusType,
+  LOST: "LOST" as StatusType,
 };

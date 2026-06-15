@@ -1,6 +1,6 @@
 export type Direction = "N" | "E" | "S" | "W";
 export type Instruction = "F" | "L" | "R";
-
+export type StatusType = "OK" | "LOST";
 export interface Grid {
   width: number;
   height: number;
@@ -26,5 +26,5 @@ export type RobotState = {
   x: number;
   y: number;
   direction: Direction;
-  offGrid: boolean;
+  status: StatusType;
 };
