@@ -22,11 +22,9 @@ export interface RouteInput {
   routes: Route[];
 }
 
-export type RobotState =
-  | {
-      x: number;
-      y: number;
-      direction: Direction;
-      offGrid: boolean;
-    }
-  | undefined;
+export type RobotState = {
+  x: number;
+  y: number;
+  direction: Direction;
+  offGrid: boolean;
+};
