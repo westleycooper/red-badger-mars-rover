@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "doc": "docs"
+    "docs": "documentation"
   },
   "scripts": {
-    "test": "vitest run",
+    "test": "vitest run --reporter=verbose",
     "lint": "eslint ."
   },
   "repository": {
