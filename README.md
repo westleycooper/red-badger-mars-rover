@@ -18,7 +18,7 @@ Edit this file:
 
 ## Initial Thinking
 
-[docs/reasoning.md](docs/reasoning.md)
+[docs/reasoning.md](docs/Reasoning.md)
 
 Note: I used some intellisense as I decided not to turn it off. I did not utilise AI in the modern use sense e.g. Claude Code + MD files or vibe coding with a chat window.
 
