@@ -27,7 +27,8 @@ My primary thought was to parse the instruction logic into a typesafe object tha
 ## Next Steps
 
 1. I did not finish the lost robot local state function, so extend navigateStep to finish that off.
-2. I would not take this project forward. I would instead utilise Claude Code + Python + notebook + API + autogen solution. The tech stack was chosen for delivery confidence.
+2. On reflection I also recognised the output format is not exactly as requested so I would implement a simple API to deliver the output exactly as expected.
+3. I would likely not take this project forward. I may instead utilise Claude Code + Python + notebook + API + autogen solution. The tech stack was chosen for delivery confidence.
 
 ## Retrospective
 
